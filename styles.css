@@ -6,6 +6,7 @@ body{
 
 .derecha{
     background-color: white;
+    width: 50%;
 }
 
 
@@ -28,16 +29,16 @@ body{
 
 
 .card {
-    border-radius: 1rem;
-    width: 40rem;
-    height: 30rem;
+    border-radius: 0.7rem;
+    width: 37rem;
+    height: 28rem;
     display: flex;
     margin: 1.5rem;
     overflow: hidden;
 
 }
 
-.derecha p {
+.derecha p, a {
     
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -57,9 +58,8 @@ body{
 }
 
 .izquierda{
-    padding: 0%;
     height: 100%;
-    width: 100%;
+    width: 50%;
     background: url(/images/image-product-desktop.jpg);
     background-size:cover;
     background-position:center;
@@ -71,13 +71,14 @@ body{
     
 }
 
-.derecha p, h1 {
-    margin: 30px;
+.derecha a, p, h1 {
+    margin: 20px;
 }
 
 .precios {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 
@@ -91,13 +92,15 @@ body{
 }
 
 .boton{
-    font-weight: 10px;
-    width: 300px;
-    text-align: center;
-    border-radius: 1rem;
-    padding: 15px 30px ;
+    
+    background-image: url(/images/icon-cart.svg);
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    padding: 15px 85px ;
     color: white;
     background-color:hsl(158, 36%, 37%) ;
+    background-position: 60px 15px;
+    align-items: center;
 }
 
 
